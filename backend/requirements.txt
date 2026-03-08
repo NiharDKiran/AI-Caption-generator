@@ -1,0 +1,9 @@
+Flask
+Werkzeug
+torch
+torchvision
+transformers
+Pillow
+tensorflow
+pandas
+numpy

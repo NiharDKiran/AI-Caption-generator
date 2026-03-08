@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url('https://i.postimg.cc/mD79jFDd/backiee-275861-landscape.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Container */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  color: #fff;
+}
+
+/* Headings */
+.container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Custom File Input */
+.custom-file {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.custom-file input[type="file"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-file-label {
+  display: block;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px dashed #fff;
+  border-radius: 12px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.custom-file-label:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.02);
+}
+
+/* Button Styling */
+button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Image Preview */
+#previewImg {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Result Section */
+#result {
+  margin-top: 25px;
+}
+
+#result h3 {
+  margin-bottom: 8px;
+  color: #f0f0f0;
+}
+
+#captionText {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  font-style: italic;
+}
