@@ -6,7 +6,6 @@ This project provides an AI-powered image caption generator.
 ## Backend
 - Flask server (port 7860)
 - Hugging Face BLIP model (Salesforce/blip-image-captioning-base)
-- Requires API token for requests: r8_4nOth0dOBOXUr9QSVL2Rl0QhD1zLcby4ZSWDT
 
 ### Setup
 ```bash
